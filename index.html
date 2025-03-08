@@ -4,24 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Responsivo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itensmenu">
             <ul>
-                <li><a href="#">Opção 1</a></li>
-                <li><a href="#">Opção 2</a></li>
-                <li><a href="#">Opção 3</a></li>
-                <li><a href="#">Opção 4</a></li>
-                <li><a href="#">Opção 5</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pág 01</a></li>
+                <li><a href="#">Pág 02</a></li>
+                <li><a href="#">Pág 03</a></li>
+                <li><a href="#">Pág 04</a></li>
             </ul>
         </menu>
     </header>
     <main>
         <article>
-
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae quae nihil minima repellendus nulla, commodi dignissimos saepe vitae quis veritatis odit quos repudiandae tenetur possimus dicta atque sed tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum saepe delectus, quis, sequi totam recusandae culpa unde doloribus rem voluptatem alias mollitia, odio vero excepturi iste! Error similique voluptates saepe! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, quae! Eos maiores commodi repellendus aspernatur. Esse aperiam expedita alias. Ipsa unde eum quia eligendi doloribus ipsum praesentium nostrum neque dicta?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident officia deserunt accusamus sed saepe totam quo voluptates? Vel temporibus officiis error voluptatem iure, incidunt dignissimos unde laborum dicta? Vero, consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum alias dolorum, ipsa debitis similique totam autem possimus minus laudantium ea. Rerum quis voluptas illo animi quae incidunt odit quam suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis laborum facere magni maiores voluptatibus? Quam accusamus earum necessitatibus nesciunt voluptas repellat. Iusto adipisci quidem officia ut odit mollitia esse quia.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo eligendi quia sit ducimus, voluptate est vel ipsum dolore blanditiis iusto incidunt libero eveniet voluptatibus placeat! Quibusdam alias accusantium ex. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam eaque magni omnis sunt voluptate voluptates quisquam molestiae quia. Magnam assumenda iusto vero eum esse placeat animi, suscipit consectetur at doloremque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ducimus doloremque? Alias officia sint nihil culpa harum, sequi beatae iste ipsa magnam similique distinctio praesentium placeat deleniti ratione deserunt provident!</p>
         </article>
     </main>
+    <footer>
+        <p>&copy; Site desenvolvido por <a href="https://github.com/gilbertodev90" target="_blank" rel="external">Gilberto Lima</a></p>
+    </footer>
+    <script src="menu.js"></script>
 </body>
 </html>
