@@ -82,7 +82,7 @@ article > p {
 footer {
     background-color: black;
     color: white;
-    padding: 30px;
+    padding: 10px;
     /*Aqui eu fixo o rodapé embaixo, mesmo sem muito conteúdo no main*/
     position: fixed;
     bottom: 0;
